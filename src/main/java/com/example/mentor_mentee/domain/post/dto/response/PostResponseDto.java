@@ -1,7 +1,9 @@
 package com.example.mentor_mentee.domain.post.dto.response;
 
 import lombok.Builder;
+import lombok.Getter;
 
+@Getter
 @Builder
 public class PostResponseDto {
     private final Long id;
